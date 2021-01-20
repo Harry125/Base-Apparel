@@ -152,7 +152,7 @@ body {
   display: none;
 }
 
-@media (min-width: 90rem) {
+@media (min-width: 900px) {
   .main {
     display: flex;
   }
@@ -175,13 +175,13 @@ body {
     margin: 0;
   }
 
-  .container .bg-img {
+  .bg-img {
     display: none;
   }
 
   .content {
-    text-align: start;
-    width: 450px;
+    text-align: left;
+    max-width: 450px;
     margin: 70px;
   }
 
@@ -204,5 +204,6 @@ body {
   .bg-desktop {
     display: block;
     height: 100%;
+    justify-self:flex-end;
   }
 }
